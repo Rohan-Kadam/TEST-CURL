@@ -1,0 +1,12 @@
+REST is the way HTTP should be used. 
+
+HTTP is an application protocol. REST is a set of rules, that when followed, enable you to build a distributed application 
+that has a specific set of desirable constraints.
+
+REST doesn't add any specific functionality to HTTP but is an architectural style that was developed alongside HTTP 
+and most commonly uses HTTP for its application layer protocol.
+
+Today we only use a tiny bit of the HTTP protocol's methods – namely GET and POST. 
+The REST way to do it is to use all of the protocol's methods.
+For example, REST dictates the usage of DELETE to erase a document (be it a file, state, etc.) behind a URI, 
+whereas, with HTTP, you would misuse a GET or POST query like ...product/?delete_id=22.
